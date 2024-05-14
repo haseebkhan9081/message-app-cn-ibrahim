@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Chatting App Real Time</title>
+    <script src="https://cdn.socket.io/4.4.1/socket.io.min.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <nav>
+        <img class="logo" src="assets/logo.png" alt="">
+        <h1>Welcome to Virtual Classroom Chat and File Sharing</h1>
+    </nav>
+    <div class="container">
+        <!-- <div class=" center">Hello</div> -->
+        <!-- Messages will be displayed here -->
+    </div>
+
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageInp" id="messageInp">
+            <label for="file-upload" class="custom-file-upload">
+                <input id="file-upload" type="file" multiple>
+                <box-icon name='file-plus' type='solid' color='#ffffff'></box-icon>
+            </label>
+
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+
+    <script src="client.js"></script>
+</body>
+
+</html>

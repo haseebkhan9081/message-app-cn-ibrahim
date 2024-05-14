@@ -1,0 +1,126 @@
+.logo{
+    display: block;
+    margin: auto;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(#304352,#096979,#00d4ff);
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: Garamond;
+}
+.container{
+    max-width: 955px;
+    margin: auto;
+    border: 2px solid rgb(55, 88, 121);
+    border-radius: 20px;
+    height: 58vh;
+    padding: 10px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+.message{
+    background-color: rgb(148, 144, 144);
+    border: 2px solid rgb(52, 46, 46);
+    border-radius: 10px;
+    margin: 15px 12px;
+    padding: 10px;
+    width: 24%;
+}
+.left{
+    float: left;
+    clear: both;
+
+}
+.right{
+float: right;
+clear: both;
+}
+
+.left_image{
+    float: left;
+    clear: both;
+
+}
+.right_image{
+float: right;
+clear: both;
+}
+
+
+.center{
+
+    /* background-color: rgb(148, 144, 144); */
+    /* border: 2px solid rgb(52, 46, 46); */
+    font-family: Sans-serif;
+    text-align: center;
+    font-weight: 600;
+    margin: 15px 12px;
+    padding: 10px;
+    width: 24%;
+    display: block;
+    clear: both;
+    margin: auto;
+
+}
+
+
+
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 1000px;
+    width: 100%;
+}
+
+#messageInp{
+    height: 35px;
+    width: 83%;
+    border: 1px solid rgb(88, 133, 148);
+    border-radius: 10px;
+    background: none;
+}
+
+#file-input{
+    width: 18%;
+    margin-left: 5px;
+    
+    /* background-color: black; */
+}
+.custom-file-upload {
+  display: inline-block;
+  padding: 5px 10px;
+  cursor: pointer;
+  background: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.custom-file-upload input[type="file"] {
+  display: none;
+}
+
+.btn{
+    cursor: pointer;
+    width: 8%;
+    border-radius: 6px;
+    height: 35px;
+    background-color: #007bff;
+  border: 1px solid #007bff;
+    color: white;
+}
+
+
+.btn:hover{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}
+.fileColor{
+    color: #130abc;
+    background-color: black;
+}
+
